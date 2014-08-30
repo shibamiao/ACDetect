@@ -1,0 +1,237 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ACDetect.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ACDetect.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 ACDetect"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ACDetect 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2012",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_ACDETECT_DIALOG DIALOGEX 0, 0, 827, 472
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ACDetect"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_TEST_PATH,23,15,369,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "打开待测云图",IDC_BTN_OPEN_TEST,402,15,50,14
+    CONTROL         "",IDC_STD,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE,17,75,226,185,WS_EX_TRANSPARENT | 
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_TEST,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE,253,75,226,185,WS_EX_TRANSPARENT | 
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_STD_COUT,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE,17,304,152,140,WS_EX_TRANSPARENT | 
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_TEST_COUT,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE,172,304,152,140,WS_EX_TRANSPARENT | 
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_MINUS,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE,327,304,152,140,WS_EX_TRANSPARENT | 
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT_THRESOLD,589,48,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "打开设计文件",IDC_BTN_OPEN_DESIGNE,752,18,52,16
+    PUSHBUTTON      "OK",IDC_OK,679,41,50,25
+    LTEXT           "阈值",IDC_STATIC,557,51,17,8
+    CONTROL         "",IDC_MERGE,"Static",SS_BITMAP | SS_NOTIFY | 
+                    SS_CENTERIMAGE,509,75,297,213,WS_EX_TRANSPARENT | 
+                    WS_EX_STATICEDGE
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,509,304,298,149
+    LTEXT           "原始标准云图",IDC_STATIC,75,57,49,8
+    LTEXT           "原始待测云图",IDC_STATIC,330,57,49,8
+    LTEXT           "有效标准云图",IDC_STATIC,63,279,49,8
+    LTEXT           "有效待测云图",IDC_STATIC,211,279,49,8
+    LTEXT           "云图差图",IDC_STATIC,375,279,33,8
+    EDITTEXT        IDC_STD_PATH,23,33,369,14,ES_AUTOHSCROLL
+    LTEXT           "标准云图路径",IDC_STATIC,402,39,49,8
+    EDITTEXT        IDC_DESIGNE_PATH,513,18,231,14,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ACDetect Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ACDetect\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2012\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ACDetect.EXE\0"
+            VALUE "ProductName", "ACDetect 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_ACDETECT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 820
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 465
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 ACDetect(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\ACDetect.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

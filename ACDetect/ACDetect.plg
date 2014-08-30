@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ACDetect - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ACDetect.res" /d "_DEBUG" /d "_AFXDLL" "E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetect.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1BE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ACDetect.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetect.cpp"
+"E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1BE.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1BF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ACDetect.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\本科毕设\03082054+王娟\程序\ACDetect\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1BF.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1C0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  cxcore.lib  cv.lib ml.lib  highgui.lib  cvaux.lib  cvcam.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ACDetect.pdb" /debug /machine:I386 /out:"Debug/ACDetect.exe" /pdbtype:sept 
+".\Debug\ACDetect.obj"
+".\Debug\ACDetectDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ACDetect.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1C0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ACDetect.cpp
+ACDetectDlg.cpp
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(961) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(961) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(962) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(962) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(889) : warning C4101: 'scolor' : unreferenced local variable
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1263) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1264) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1267) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1268) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1272) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1273) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1277) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1278) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1410) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1410) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1454) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1455) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1464) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1465) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1523) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1527) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1527) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1528) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1528) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+E:\本科毕设\03082054+王娟\程序\ACDetect\ACDetectDlg.cpp(1531) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/ACDetect.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\ACDetect.sbr" ".\Debug\ACDetectDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ACDetect.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
